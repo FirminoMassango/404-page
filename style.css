@@ -6,6 +6,7 @@
 
 body {
   height: 100vh;
+  width: 100vw;
 }
 
 .container {
@@ -44,8 +45,18 @@ body {
 
   h1 {
     font-size: 40px;
-    font-weight: 600;
-    min-width: 24rem;
+    font-weight: 700;
+    max-width: 36rem;
+    color: #333333;
+    margin-bottom: 5%;
+  }
+
+  p {
+    color: #4f4f4f;
+    font-size: 18px;
+    font-weight: 400;
+    width: 22rem;
+    margin-block: 10%;
   }
 }
 
@@ -54,6 +65,23 @@ body {
     display: flex;
     margin-top: 5%;
   }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 5%;
+    max-width: 36rem;
+  }
+  
+  p {
+    color: #4f4f4f;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 24rem;
+    margin-block: 10%;
+  }
+  
 }
 
 .left {
@@ -79,21 +107,6 @@ body {
   font-size: 0.75rem;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: 700;
-  color: #333333;
-  margin-bottom: 5%;
-  max-width: 36rem;
-}
-
-p {
-  color: #4f4f4f;
-  font-size: 24px;
-  font-weight: 400;
-  max-width: 24rem;
-  margin-block: 10%;
-}
 
 button {
   font-size: 14px;
