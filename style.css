@@ -1,0 +1,110 @@
+* {
+  font-family: "Space Mono", monospace;
+  border: none;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  margin-inline: 10%;
+  margin-top: 20px;
+}
+
+.not-found {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media (max-width: 50em) {
+  .container {
+    margin-inline: 20px;
+  }
+
+  .not-found {
+    min-width: 24rem;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .left {
+    min-width: 24rem;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    min-width: 24rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .main {
+    display: flex;
+    margin-top: 5%;
+  }
+}
+
+.left {
+  margin: auto;
+  width: 50%;
+}
+
+.left img {
+  width: 80%;
+  margin: auto;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 50%;
+}
+
+.bottom-text {
+  margin: 20% 0 20px 0;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 5%;
+  max-width: 36rem;
+}
+
+p {
+  color: #4f4f4f;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 24rem;
+  margin-block: 10%;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #333333;
+  color: #fff;
+  height: 68px;
+  width: 216px;
+  text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #4f4f4f;
+}
