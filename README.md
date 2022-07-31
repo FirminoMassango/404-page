@@ -19,5 +19,4 @@
     </a>
   </h3>
 </div>
-
 <img src="img/screenshot.png"/>
